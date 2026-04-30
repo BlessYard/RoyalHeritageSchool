@@ -65,23 +65,6 @@
     interval: 6000,
   });
 
-  // ---- Testimonials Slider ----
-  createSlider({
-    slidesEl: document.getElementById('testSlides'),
-    dotsEls: document.querySelectorAll('.test-dot'),
-    prevBtn: document.getElementById('testPrev'),
-    nextBtn: document.getElementById('testNext'),
-    interval: 7000,
-  });
-
-  // ---- Gallery Slider ----
-  createSlider({
-    slidesEl: document.getElementById('galSlides'),
-    dotsEls: document.querySelectorAll('.gal-dot'),
-    prevBtn: document.getElementById('galPrev'),
-    nextBtn: document.getElementById('galNext'),
-    interval: 5500,
-  });
 
   // ---- Animate stat numbers on scroll ----
   const statNums = document.querySelectorAll('.stat-num');
@@ -99,3 +82,76 @@
     el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
     observer.observe(el);
   });
+
+calender
+(function () {
+  var slides   = document.getElementById('calSlides');
+  var prevBtn  = document.getElementById('calPrev');
+  var nextBtn  = document.getElementById('calNext');
+  var counter  = document.getElementById('calCounter');
+  var titleEl  = document.getElementById('activeMonthInfoTitle');
+  var listEl   = document.getElementById('activeMonthInfoList');
+
+  if (!slides || !prevBtn || !nextBtn) return;
+
+  var total   = slides.children.length;
+  var current = 0;
+
+  function goTo(index) {
+    current = index;
+    slides.style.transform = 'translateX(-' + (current * 100) + '%)';
+    counter.textContent    = (current + 1) + ' / ' + total;
+    prevBtn.disabled       = current === 0;
+    nextBtn.disabled       = current === total - 1;
+    syncSidebar();
+  }
+
+  function syncSidebar() {
+    var slide      = slides.children[current];
+    var sourceTitle = slide.querySelector('.month-events-title');
+    var sourceList  = slide.querySelector('.month-events-list');
+    titleEl.textContent = sourceTitle ? sourceTitle.textContent.trim() : 'Key Dates In This Month';
+    listEl.innerHTML    = sourceList  ? sourceList.innerHTML            : '<li>No key academic dates in this month.</li>';
+  }
+
+  prevBtn.addEventListener('click', function () { if (current > 0)         goTo(current - 1); });
+  nextBtn.addEventListener('click', function () { if (current < total - 1) goTo(current + 1); });
+
+  goTo(0); // initialise
+})();
+
+(function () {
+  var slides   = document.getElementById('calSlides');
+  var prevBtn  = document.getElementById('calPrev');
+  var nextBtn  = document.getElementById('calNext');
+  var counter  = document.getElementById('calCounter');
+  var titleEl  = document.getElementById('activeMonthInfoTitle');
+  var listEl   = document.getElementById('activeMonthInfoList');
+
+  if (!slides || !prevBtn || !nextBtn) return;
+
+  var total   = slides.children.length;
+  var current = 0;
+
+  function goTo(index) {
+    current = index;
+    slides.style.transform = 'translateX(-' + (current * 100) + '%)';
+    counter.textContent    = (current + 1) + ' / ' + total;
+    prevBtn.disabled       = current === 0;
+    nextBtn.disabled       = current === total - 1;
+    syncSidebar();
+  }
+
+  function syncSidebar() {
+    var slide      = slides.children[current];
+    var sourceTitle = slide.querySelector('.month-events-title');
+    var sourceList  = slide.querySelector('.month-events-list');
+    titleEl.textContent = sourceTitle ? sourceTitle.textContent.trim() : 'Key Dates In This Month';
+    listEl.innerHTML    = sourceList  ? sourceList.innerHTML            : '<li>No key academic dates in this month.</li>';
+  }
+
+  prevBtn.addEventListener('click', function () { if (current > 0)         goTo(current - 1); });
+  nextBtn.addEventListener('click', function () { if (current < total - 1) goTo(current + 1); });
+
+  goTo(0); 
+})();

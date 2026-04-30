@@ -141,31 +141,6 @@
   </div>
 </section>
 
-
-<!-- ===== STATS STRIP ===== -->
-<section id="about-stats" aria-label="School statistics">
-  <div class="container">
-    <div class="about-stats-grid">
-      <div class="about-stat reveal">
-        <div class="about-stat-num">2025</div>
-        <div class="about-stat-label">Year Established</div>
-      </div>
-      <div class="about-stat reveal">
-        <div class="about-stat-num">3</div>
-        <div class="about-stat-label">Academic Levels Offered</div>
-      </div>
-      <div class="about-stat reveal">
-        <div class="about-stat-num">6</div>
-        <div class="about-stat-label">Core School Values</div>
-      </div>
-      <div class="about-stat reveal">
-        <div class="about-stat-num">100%</div>
-        <div class="about-stat-label">Commitment to Excellence</div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ===== SECTION 6: TEAM ===== -->
 <section id="team" class="section" aria-labelledby="team-heading">
   <div class="container">

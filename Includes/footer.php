@@ -1,10 +1,54 @@
+<!-- Footer style -->
+<style>
+  /* ===== FOOTER ===== */
+    #footer { background: var(--navy); padding: 72px 0 0; }
+    .footer-grid {
+      display: grid; 
+      grid-template-columns: 2fr 1fr 1fr 1.5fr;
+      gap: 40px; padding-bottom: 48px;
+    }
+    .footer-brand .logo-wrap { margin-bottom: 16px; }
+    .footer-brand .logo-name { color: var(--white); }
+    .footer-brand p { font-size: 0.86rem; color: rgba(255,255,255,.60); line-height: 1.7; margin-bottom: 18px; }
+    .footer-socials { display: flex; gap: 10px; }
+    .social-btn {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14);
+      display: flex; align-items: center; justify-content: center;
+      color: rgba(255,255,255,.65); font-size: 0.9rem;
+      transition: background var(--transition), color var(--transition);
+    }
+    .social-btn:hover { background: var(--gold); color: var(--navy); border-color: var(--gold); }
+    .footer-col h5 {
+      font-size: 0.80rem; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 18px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col ul li a { font-size: 0.86rem; color: rgba(255,255,255,.60); transition: color var(--transition); display: flex; align-items: center; gap: 6px; }
+    .footer-col ul li a:hover { color: var(--gold); }
+    .footer-contact-item {
+      display: flex; gap: 12px; margin-bottom: 14px;
+    }
+    .footer-contact-item i { color: var(--gold); margin-top: 3px; flex-shrink: 0; }
+    .footer-contact-item span { font-size: 0.86rem; color: rgba(255,255,255,.60); line-height: 1.6; }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,.08);
+      padding: 20px 0;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 12px; flex-wrap: wrap;
+    }
+    .footer-bottom p { font-size: 0.80rem; color: rgba(255,255,255,.40); }
+    .footer-bottom a { color: var(--gold); }
+
+</style>
 <!-- ===================== FOOTER ===================== -->
 <footer id="footer" role="contentinfo">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="index.php" class="logo-wrap" aria-label="Royal Heritage School">
-          <div class="logo-icon"><img src="Images/logo.png" alt="Royal logo"></div>
+          <div class="logo-icon"><img src="assets/images/logo.png" alt="Royal logo"></div>
           <div class="logo-text-wrap">
             <div class="logo-name">Royal Heritage</div>
             <div class="logo-motto">Quality Education for Future Generations</div>

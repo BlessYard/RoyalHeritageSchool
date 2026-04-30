@@ -24,38 +24,37 @@
   </div>
 </section>
 
-<section class="py-5 bg-white">
-    <div class="container py-4">
-        <div class="row g-4 text-center">
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="p-5 border-0 shadow-sm h-100 bg-light transition-hover">
-                    <div class="mb-4 text-primary" style="color: var(--royal-blue) !important;">
-                        <i class="bi bi-geo-alt fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold">Our Location</h5>
-                    <p class="text-muted small">24th Street Beach Side, Sinkor,<br>Monrovia, Liberia</p>
-                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="p-5 border-0 shadow-sm h-100 bg-light transition-hover">
-                    <div class="mb-4 text-danger" style="color: var(--royal-red) !important;">
-                        <i class="bi bi-telephone-outbound fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold">Call Us</h5>
-                    <p class="text-muted small">+231 XX-XXX-XXX<br>+231 XX-XXX-XXX</p>
-                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="p-5 border-0 shadow-sm h-100 bg-light transition-hover">
-                    <div class="mb-4 text-warning" style="color: var(--royal-gold) !important;">
-                        <i class="bi bi-envelope-paper fs-1"></i>
-                    </div>
-                    <h5 class="fw-bold">Email Support</h5>
-                    <p class="text-muted small">info@royalheritage.edu.lr<br>admissions@royalheritage.edu.lr</p>
-                </div>
-            </div>
+<!-- ══════════════ MINI HIGHLIGHT CARDS ══════════════ -->
+<section class="py-5" data-animate>
+  <div class="container">
+    <div class="row g-4">
+
+      <div class="col-lg-4">
+        <div class="info-card admission-mini-card">
+          <i class="bi bi-calendar-check-fill"></i>
+          <h5>Rolling Admissions</h5>
+          <p class="mb-0">Applications are reviewed promptly during each intake period.</p>
         </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="info-card admission-mini-card">
+          <i class="bi bi-people-fill"></i>
+          <h5>Parent Support</h5>
+          <p class="mb-0">Our team guides parents through every step from inquiry to enrollment.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="info-card admission-mini-card">
+          <i class="bi bi-mortarboard-fill"></i>
+          <h5>Grade Placement</h5>
+          <p class="mb-0">Students are placed based on age, records, and readiness assessment.</p>
+        </div>
+      </div>
+
     </div>
+  </div>
 </section>
 
 <section class="py-5">
@@ -76,7 +75,9 @@
                     <div class="mb-4">
                         <textarea class="form-control form-control-lg border-0 bg-light" rows="5" placeholder="Your Message" required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-gold btn-lg w-100 py-3">Send Message</button>
+                     <div class="col-12 text-center">
+                <button type="submit" class="btn btn-navy-solid btn-lg">Send Message</button>
+              </div>
                 </form>
             </div>
             
@@ -101,7 +102,7 @@
                 <p class="mb-0 text-muted small">MONDAY - FRIDAY</p>
                 <h5 class="fw-bold">8:00 AM - 4:00 PM</h5>
             </div>
-            <div style="width: 1px; background: rgba(255, 255, 255, 0.1);"></div>
+            <div style="width: 1px; background: var(--navy);"></div>
             <div>
                 <p class="mb-0 text-muted small">SATURDAY</p>
                 <h5 class="fw-bold">9:00 AM - 12:00 PM</h5>

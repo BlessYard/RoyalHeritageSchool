@@ -66,31 +66,43 @@ foreach ($calendarEvents as $date => $eventData) {
   </div>
 </section>
 
-<!-- ════════════════ PROGRAM CARDS ════════════════ -->
-<section class="py-5 bg-light" data-animate>
+<!-- ===================== PROGRAMS ===================== -->
+<section id="programs" class="section" aria-labelledby="programs-heading">
   <div class="container">
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="academic-card text-center">
-          <div class="program-icon">🧸</div>
-          <h5>Early Childhood</h5>
-          <p class="mb-0">Daycare, Pre-Nursery, and Kindergarten with focus on social and literacy readiness.</p>
+    <div class="programs-grid">
+      <article class="prog-card">
+        <div class="prog-card-top">
+          <div class="prog-icon"><i class="fas fa-baby"></i></div>
+          <h3>Day Care</h3>
+          <p>A nurturing, stimulating environment for our youngest learners, focusing on early development, play-based discovery, and social skills.</p>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="academic-card text-center">
-          <div class="program-icon">📘</div>
-          <h5>Lower Elementary</h5>
-          <p class="mb-0">Grades 1-3 focused on reading, writing, phonics, and mathematics foundations.</p>
+        <div class="prog-card-bottom">
+          <span>Ages 6 months – 2 years</span>
+          <a href="academics.php">Learn More <i class="fas fa-arrow-right"></i></a>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="academic-card text-center">
-          <div class="program-icon">📗</div>
-          <h5>Upper Elementary</h5>
-          <p class="mb-0">Grades 4-6 with critical thinking, research, and higher-level preparation.</p>
+      </article>
+      <article class="prog-card">
+        <div class="prog-card-top">
+          <div class="prog-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Kindergarten</h3>
+          <p>Building strong academic and social foundations through creative play, literacy, numeracy, and character formation in a safe environment.</p>
         </div>
-      </div>
+        <div class="prog-card-bottom">
+          <span>Ages 3 – 5 years</span>
+          <a href="academics.php">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
+      <article class="prog-card">
+        <div class="prog-card-top">
+          <div class="prog-icon"><i class="fas fa-book-open"></i></div>
+          <h3>Primary School</h3>
+          <p>A structured, modern curriculum that develops critical thinking, creativity, and leadership — preparing students for secondary education</p>
+        </div>
+        <div class="prog-card-bottom">
+          <span>Ages 6 – 12 years</span>
+          <a href="academics.php">Learn More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </article>
     </div>
   </div>
 </section>
@@ -189,12 +201,12 @@ foreach ($calendarEvents as $date => $eventData) {
                         <?php endif; ?>
                       </ul>
                     </div>
-                  </div><!-- /calendar-month-card -->
-                </div><!-- /cal-slide -->
+                  </div>
+                </div>
               <?php endforeach; ?>
 
-            </div><!-- /cal-slides -->
-          </div><!-- /cal-slider-wrap -->
+            </div>
+          </div>
 
           <!-- Prev / Next controls -->
           <div class="cal-nav-row">
@@ -202,8 +214,7 @@ foreach ($calendarEvents as $date => $eventData) {
             <span class="cal-slide-counter" id="calCounter">1 / <?php echo count($calendarMonths); ?></span>
             <button class="cal-nav-btn" id="calNext" aria-label="Next month">&#8250;</button>
           </div>
-        </div><!-- /col-lg-8 -->
-
+        </div>
         <!-- ── Sidebar ── -->
         <div class="col-lg-4">
           <div class="info-card calendar-side-info">
@@ -221,12 +232,12 @@ foreach ($calendarEvents as $date => $eventData) {
             <h6 id="activeMonthInfoTitle" class="mb-2">Key Dates In This Month</h6>
             <ul id="activeMonthInfoList" class="list-unstyled calendar-events mb-0"></ul>
           </div>
-        </div><!-- /col-lg-4 -->
-      </div><!-- /row -->
+        </div>
+      </div>
 
       <!-- Download -->
       <div class="text-center mt-4">
-        <button type="button" class="btn btn-school btn-lg" onclick="window.print()">
+        <button type="button" class="btn btn-navy-solid btn-lg" onclick="window.print()">
           <i class="bi bi-file-earmark-pdf-fill me-2"></i>Download Calendar PDF
         </button>
         <p class="small text-muted mt-2 mb-0">Click the button and choose Save as PDF in the print dialog.</p>
@@ -238,78 +249,6 @@ foreach ($calendarEvents as $date => $eventData) {
           <strong>Note:</strong> Dates may be adjusted by school management when necessary.
           Please confirm updates through the school office or the contact page.
         </p>
-      </div>
-    </div><!-- /school-calendar-wrap -->
-  </div><!-- /container -->
-</section>
-
-<!-- ── Vanilla JS calendar slider ── -->
-<script>
-(function () {
-  var slides   = document.getElementById('calSlides');
-  var prevBtn  = document.getElementById('calPrev');
-  var nextBtn  = document.getElementById('calNext');
-  var counter  = document.getElementById('calCounter');
-  var titleEl  = document.getElementById('activeMonthInfoTitle');
-  var listEl   = document.getElementById('activeMonthInfoList');
-
-  if (!slides || !prevBtn || !nextBtn) return;
-
-  var total   = slides.children.length;
-  var current = 0;
-
-  function goTo(index) {
-    current = index;
-    slides.style.transform = 'translateX(-' + (current * 100) + '%)';
-    counter.textContent    = (current + 1) + ' / ' + total;
-    prevBtn.disabled       = current === 0;
-    nextBtn.disabled       = current === total - 1;
-    syncSidebar();
-  }
-
-  function syncSidebar() {
-    var slide      = slides.children[current];
-    var sourceTitle = slide.querySelector('.month-events-title');
-    var sourceList  = slide.querySelector('.month-events-list');
-    titleEl.textContent = sourceTitle ? sourceTitle.textContent.trim() : 'Key Dates In This Month';
-    listEl.innerHTML    = sourceList  ? sourceList.innerHTML            : '<li>No key academic dates in this month.</li>';
-  }
-
-  prevBtn.addEventListener('click', function () { if (current > 0)         goTo(current - 1); });
-  nextBtn.addEventListener('click', function () { if (current < total - 1) goTo(current + 1); });
-
-  goTo(0); // initialise
-})();
-</script>
-
-<!-- ════════════════ CURRICULUM HIGHLIGHTS ════════════════ -->
-<section class="py-5" data-animate>
-  <div class="container">
-    <h2 class="section-title text-center mb-4">Curriculum Highlights</h2>
-    <div class="row g-3">
-      <div class="col-md-6">
-        <div class="info-card border-gold">
-          <h6>Core Subjects</h6>
-          <p class="mb-0">Mathematics, English Language, General Science, and Social Studies.</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="info-card border-gold">
-          <h6>Values and Life Skills</h6>
-          <p class="mb-0">Civic education, moral instruction, communication, and teamwork.</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="info-card border-gold">
-          <h6>Creative Learning</h6>
-          <p class="mb-0">Music, arts, and activity-based instruction for holistic development.</p>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="info-card border-gold">
-          <h6>Physical Development</h6>
-          <p class="mb-0">Sports and structured play for health and discipline.</p>
-        </div>
       </div>
     </div>
   </div>

@@ -21,7 +21,6 @@
     <div class="slide" role="group" aria-label="Slide 2 of 3">
       <div class="slide-overlay"></div>
       <div class="slide-content">
-        <span class="slide-tag"><i class="fas fa-users"></i> &nbsp;Community & Values</span>
         <h1>More Than a School —<br>A <em>Community</em> of Leaders</h1>
         <p>We build character, discipline, and teamwork through sports, clubs, and community service that shape future leaders.</p>
         <a href="student-life.php" class="slide-cta"><i class="fas fa-running"></i> Discover Student Life</a>
@@ -34,7 +33,6 @@
     <div class="slide" role="group" aria-label="Slide 3 of 3">
       <div class="slide-overlay"></div>
       <div class="slide-content">
-        <span class="slide-tag"><i class="fas fa-door-open"></i> &nbsp;Admissions Open</span>
         <h1>Your Child's Journey to<br><em>Success</em> Starts Here</h1>
         <p>Join a safe, inclusive, and inspiring learning environment. Admissions are now open for Day Care, Kindergarten, and Primary.</p>
         <a href="admission.php" class="slide-cta"><i class="fas fa-pen"></i> Apply Now</a>
@@ -176,125 +174,69 @@
   </div>
 </section>
 
-<!-- ===================== TESTIMONIALS SLIDER ===================== -->
-<section id="testimonials" aria-labelledby="test-heading">
+<!-- ================= PARENT TESTIMONIALS ================= -->
+<section class="py-5 testimonial-section" data-animate>
   <div class="container">
-    <div class="test-header">
-      <span class="section-label">What Parents Say</span>
-      <h2 class="section-title" id="test-heading">Trusted by Families in Our Community</h2>
-      <div class="divider"></div>
-    </div>
-    <div class="test-slider-wrap">
-      <div class="test-slides" id="testSlides">
+    <h2 class="section-title text-center mb-2">What Parents Say</h2>
+    <p class="text-center text-muted mb-5">Hear from families who trust us with their children's education.</p>
 
+    <div class="row g-4">
 
-        <!-- Testimonials group 1 -->
-        <div class="test-slide" role="group" aria-label="Testimonials 1 to 3">
-          <div class="test-card">
-            <div class="test-quote">"</div>
-            <p>Royal Heritage has transformed my daughter's confidence and love for learning. The teachers are genuinely caring and professional — she looks forward to school every day!</p>
-            <div class="test-author">
-              <div class="author-avatar">AM</div>
-              <div class="author-info">
-                <strong>Amina Mutoni</strong>
-                <span>Parent of Kindergarten Student</span>
-              </div>
-            </div>
-          </div>
-          <div class="test-card">
-            <div class="test-quote">"</div>
-            <p>The values and discipline taught here are remarkable. My son has grown so much academically and in character. This school truly lives up to its motto.</p>
-            <div class="test-author">
-              <div class="author-avatar">JN</div>
-              <div class="author-info">
-                <strong>Jean Niyonzima</strong>
-                <span>Parent of Primary School Student</span>
-              </div>
-            </div>
-          </div>
-          <div class="test-card">
-            <div class="test-quote">"</div>
-            <p>I am proud to have my child enrolled at Royal Heritage. The school genuinely cares about every child and it shows in the results and the warm atmosphere.</p>
-            <div class="test-author">
-              <div class="author-avatar">GU</div>
-              <div class="author-info">
-                <strong>Grace Uwimana</strong>
-                <span>Parent of Day Care Student</span>
-              </div>
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
+          <p class="testimonial-text">"Logic School has transformed my child's confidence and love for learning. The teachers are caring and very professional."</p>
+          <div class="testimonial-author">
+            <img src="assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
+            <div>
+              <strong>Mrs. Sandra N. Banks</strong>
+              <small class="d-block text-muted">Parent of Grade 3 Student</small>
             </div>
           </div>
         </div>
-
-
-        <!-- Testimonials group 2 -->
-        <div class="test-slide" role="group" aria-label="Testimonials 4 to 6">
-          <div class="test-card">
-            <div class="test-quote">"</div>
-            <p>The structured curriculum and innovative teaching methods at Royal Heritage are impressive. My children are developing critical thinking skills I never expected at their age.</p>
-            <div class="test-author">
-              <div class="author-avatar">PM</div>
-              <div class="author-info">
-                <strong>Pierre Mugisha</strong>
-                <span>Parent of Two Enrolled Children</span>
-              </div>
-            </div>
-          </div>
-          <div class="test-card">
-            <div class="test-quote">"</div>
-            <p>From the moment we walked in, the warmth and professionalism of the staff was evident. Royal Heritage is everything we hoped for in a school for our family.</p>
-            <div class="test-author">
-              <div class="author-avatar">EK</div>
-              <div class="author-info">
-                <strong>Esperance Kayitesi</strong>
-                <span>Parent of Primary Student</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
       </div>
-    </div>
-    <div class="test-controls" role="group" aria-label="Testimonials navigation">
-      <button class="test-arrow" id="testPrev" aria-label="Previous testimonials"><i class="fas fa-chevron-left"></i></button>
-      <button class="test-dot active" aria-selected="true" aria-label="Go to testimonial group 1"></button>
-      <button class="test-dot" aria-selected="false" aria-label="Go to testimonial group 2"></button>
-      <button class="test-arrow" id="testNext" aria-label="Next testimonials"><i class="fas fa-chevron-right"></i></button>
+
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
+          <p class="testimonial-text">"The values and discipline taught at Logic School are remarkable. My son has grown so much both academically and in character."</p>
+          <div class="testimonial-author">
+            <img src="assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
+            <div>
+              <strong>Patience Mataley</strong>
+              <small class="d-block text-muted">Parent of Grade 5 Student</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
+          <p class="testimonial-text">"I am proud to have my daughter enrolled here. The school genuinely cares about every child and it shows in the results."</p>
+          <div class="testimonial-author">
+            <img src="assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
+            <div>
+              <strong>Rebecca T. Telo</strong>
+              <small class="d-block text-muted">Parent of Kindergarten Student</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
-
-<!-- ===================== GALLERY SLIDER ===================== -->
-<section id="gallery" class="section" aria-labelledby="gallery-heading">
-  <div class="container">
-    <div class="gallery-header">
-      <span class="section-label">School Life</span>
-      <h2 class="section-title" id="gallery-heading">Life at Royal Heritage</h2>
-      <div class="divider"></div>
-      <p class="section-sub" style="margin:0 auto;">A glimpse into our vibrant campus, activities, and the smiling faces that make Royal Heritage a special place to learn.</p>
-    </div>
-    <div class="gallery-slider-wrap">
-      <div class="gallery-slides" id="galSlides">
-
-
-        <!-- Gallery row 1 -->
-        <div class="gallery-slide" role="group" aria-label="Gallery photos 1 to 3">
-          <div class="gal-item"><div class="gal placeholder1"><span>Classroom Activity</span></div></div>
-          <div class="gal-item"><div class="gal placeholder2"><span>Sports Day</span></div></div>
-          <div class="gal-item"><div class="gal placeholder3"><span>Art & Creativity</span></div></div>
-      
-      </div>
-    </div>
-    <div class="gallery-controls" role="group" aria-label="Gallery navigation">
-      <button class="gal-arrow" id="galPrev" aria-label="Previous gallery"><i class="fas fa-chevron-left"></i></button>
-      <button class="gal-dot active" aria-selected="true" aria-label="Go to gallery row 1"></button>
-      <button class="gal-dot" aria-selected="false" aria-label="Go to gallery row 2"></button>
-      <button class="gal-arrow" id="galNext" aria-label="Next gallery"><i class="fas fa-chevron-right"></i></button>
-    </div>
-    <div class="gallery-cta">
-      <a href="about-us.php" class="btn-navy"><i class="fas fa-images"></i> View More</a>
-    </div>
+<section class="gallery-section py-5" data-animate>
+  <div class="container text-center">
+    <h2 class="section-title">School Activities</h2>
+    <div class="row g-3 mt-2">
+      <div class="col-md-4"><img src="assets/images/banner1.jpeg" class="gallery-img" alt="Activity one"></div>
+      <div class="col-md-4"><img src="assets/images/banner2.jpeg" class="gallery-img" alt="Activity two"></div>
+      <div class="col-md-4"><img src="assets/images/banner3.jpeg" class="gallery-img" alt="Activity three"></div>
+      <div>
+    <a href="gallery.php" class="btn btn-school mt-4">View Full Gallery</a></div>
   </div>
 </section>
 

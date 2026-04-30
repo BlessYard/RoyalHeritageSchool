@@ -28,7 +28,10 @@ $meta_keywords = "Royal Heritage School, best school, quality education, day car
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="assets/mediaquiries.css">
-  </style>
+
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
+    <link rel="shortcut icon" href="assets/images/logo.png">
 </head>
 <body>
 
@@ -53,7 +56,7 @@ $meta_keywords = "Royal Heritage School, best school, quality education, day car
 <header id="main-header" role="banner">
   <div class="header-inner">
     <a href="index.php" class="logo-wrap" aria-label="Royal Heritage School Home">
-      <div class="logo-icon"><img src="images/logo.png" alt=""></div>
+      <div class="logo-icon"><img src="assets/images/logo.png" alt=""></div>
       <div class="logo-text-wrap">
         <div class="logo-name">Royal Heritage</div>
         <div class="logo-motto">Quality Education for Future Generations</div>
