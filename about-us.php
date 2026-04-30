@@ -26,7 +26,7 @@
     <a href="#team">Our Team</a>
   </div>
 </nav>
-<!-- ===== SECTION 5: FOUNDER'S MESSAGE ===== -->
+<!-- ===== SECTION 1: FOUNDER'S MESSAGE ===== -->
 <section id="founder" class="section" aria-labelledby="founder-heading">
   <div class="container">
     <div style="text-align:center; margin-bottom:56px;" class="reveal">
@@ -57,41 +57,7 @@
     </div>
   </div>
 </section>
-
-<!-- ===== SECTION 3: MISSION & VISION ===== -->
-<section id="mission" class="section" aria-labelledby="mission-heading">
-  <div class="container">
-    <div style="text-align:center; margin-bottom:50px;" class="reveal">
-      <span class="section-label">Our Purpose</span>
-      <h2 class="section-title" id="mission-heading">Mission & Vision</h2>
-      <div class="divider" style="margin:16px auto;"></div>
-      <p class="section-sub" style="margin:0 auto;">Two guiding statements that define every decision we make at Royal Heritage School.</p>
-    </div>
-    <div class="mv-grid">
-      <div class="mv-card mission reveal" role="article">
-        <div class="mv-card-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></div>
-        <h3>Our Mission</h3>
-        <p>Royal Heritage School is dedicated to delivering a high-quality, holistic education in a safe and supportive environment. We strive to inspire excellence in academics, character, and creativity — empowering each child to reach their full potential and make a positive impact in their community and the world.</p>
-      </div>
-      <div class="mv-card vision reveal" role="article">
-        <div class="mv-card-icon"><i class="fas fa-eye" aria-hidden="true"></i></div>
-        <h3>Our Vision</h3>
-        <p>To nurture a generation of confident, disciplined, and knowledgeable learners who will become responsible leaders and contributors to society — equipped with strong moral values and a passion for lifelong learning.</p>
-      </div>
-    </div>
-    <!-- Motto strip -->
-    <div style="background:var(--gray-light); border-radius:14px; padding:32px; text-align:center;" class="reveal">
-      <i class="fas fa-quote-left" style="color:var(--gold); font-size:1.4rem; margin-right:10px;" aria-hidden="true"></i>
-      <span style="font-family:var(--font-head); font-size:1.4rem; font-weight:700; color:var(--navy);">
-        "Quality Education for the Future Generations"
-      </span>
-      <i class="fas fa-quote-right" style="color:var(--gold); font-size:1.4rem; margin-left:10px;" aria-hidden="true"></i>
-      <p style="font-size:.80rem; color:var(--gray); margin-top:8px; letter-spacing:.10em; text-transform:uppercase; font-weight:600;">School Motto — Royal Heritage School</p>
-    </div>
-  </div>
-</section>
-
-<!-- ===== SECTION 4: CORE VALUES ===== -->
+<!-- ===== SECTION 2: CORE VALUES ===== -->
 <section id="values" class="section" aria-labelledby="values-heading">
   <div class="container">
     <div class="values-header reveal">
@@ -141,6 +107,40 @@
     </div>
   </div>
 </section>
+
+<!-- ===== SECTION 3: MISSION & VISION ===== -->
+<section id="mission" class="section" aria-labelledby="mission-heading">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:50px;" class="reveal">
+      <span class="section-label">Our Purpose</span>
+      <h2 class="section-title" id="mission-heading">Mission & Vision</h2>
+      <div class="divider" style="margin:16px auto;"></div>
+      <p class="section-sub" style="margin:0 auto;">Two guiding statements that define every decision we make at Royal Heritage School.</p>
+    </div>
+    <div class="mv-grid">
+      <div class="mv-card mission reveal" role="article">
+        <div class="mv-card-icon"><i class="fas fa-bullseye" aria-hidden="true"></i></div>
+        <h3>Our Mission</h3>
+        <p>Royal Heritage School is dedicated to delivering a high-quality, holistic education in a safe and supportive environment. We strive to inspire excellence in academics, character, and creativity — empowering each child to reach their full potential and make a positive impact in their community and the world.</p>
+      </div>
+      <div class="mv-card vision reveal" role="article">
+        <div class="mv-card-icon"><i class="fas fa-eye" aria-hidden="true"></i></div>
+        <h3>Our Vision</h3>
+        <p>To nurture a generation of confident, disciplined, and knowledgeable learners who will become responsible leaders and contributors to society — equipped with strong moral values and a passion for lifelong learning.</p>
+      </div>
+    </div>
+    <!-- Motto strip -->
+    <div style="background:var(--gray-light); border-radius:14px; padding:32px; text-align:center;" class="reveal">
+      <i class="fas fa-quote-left" style="color:var(--gold); font-size:1.4rem; margin-right:10px;" aria-hidden="true"></i>
+      <span style="font-family:var(--font-head); font-size:1.4rem; font-weight:700; color:var(--navy);">
+        "Quality Education for the Future Generations"
+      </span>
+      <i class="fas fa-quote-right" style="color:var(--gold); font-size:1.4rem; margin-left:10px;" aria-hidden="true"></i>
+      <p style="font-size:.80rem; color:var(--gray); margin-top:8px; letter-spacing:.10em; text-transform:uppercase; font-weight:600;">School Motto — Royal Heritage School</p>
+    </div>
+  </div>
+</section>
+
 
 <!-- ===== STATS STRIP ===== -->
 <section id="about-stats" aria-label="School statistics">
