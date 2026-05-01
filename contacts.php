@@ -5,6 +5,10 @@
     .transition-hover:hover { transform: translateY(-10px); background-color: #fff !important; box-shadow: 0 1rem 3rem rgba(0,0,0,.05) !important; }
     .min-vh-50 { min-height: 50vh; }
     .form-control:focus { background-color: #fff !important; border: 1px solid var(--royal-gold) !important; box-shadow: none; }
+    
+    #bg{
+      background-color: #0b1f3a !important;
+    }
 </style>
 
 <!-- ===== PAGE HERO ===== -->
@@ -94,7 +98,7 @@
     </div>
 </section>
 
-<section class="py-5 text-white text-center" id="bg">
+<section class="py-5 text-white bg-blue text-center" id="bg">
     <div class="container" data-aos="zoom-in">
         <h4 class="fw-light ls-2 mb-4">SCHOOL OFFICE HOURS</h4>
         <div class="d-flex justify-content-center gap-5 flex-wrap">
