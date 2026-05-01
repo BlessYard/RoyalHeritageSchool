@@ -35,6 +35,13 @@ $meta_keywords = "Royal Heritage School, best school, quality education, day car
 </head>
 <body>
 
+<?php if (basename($_SERVER['PHP_SELF']) === 'index.php'): ?>
+<div id="splash-screen">
+    <img src="assets/images/logo.png" alt="Royal Heritage School Logo">
+    <h3>Royal Heritage School - Quality Education for Future Generations</h3>
+</div>
+<?php endif; ?>
+
 <!-- ===================== TOP BAR ===================== -->
 <div id="top-bar" role="complementary" aria-label="Contact and quick links">
   <div class="top-bar-inner">

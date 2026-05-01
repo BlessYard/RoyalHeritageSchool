@@ -7,6 +7,7 @@
     ham.setAttribute('aria-expanded', open);
   });
 
+  
   // ---- Sticky header shadow ----
   const header = document.getElementById('main-header');
   window.addEventListener('scroll', () => {

@@ -1,11 +1,15 @@
 <!-- Footer style -->
 <style>
   /* ===== FOOTER ===== */
-    #footer { background: var(--navy); padding: 72px 0 0; }
+    #footer { 
+      background: var(--navy); 
+      padding: 72px 0 0; 
+    }
     .footer-grid {
       display: grid; 
       grid-template-columns: 2fr 1fr 1fr 1.5fr;
-      gap: 40px; padding-bottom: 48px;
+      gap: 40px; 
+      padding-bottom: 48px;
     }
     .footer-brand .logo-wrap { margin-bottom: 16px; }
     .footer-brand .logo-name { color: var(--white); }
@@ -39,8 +43,21 @@
       gap: 12px; flex-wrap: wrap;
     }
     .footer-bottom p { font-size: 0.80rem; color: rgba(255,255,255,.40); }
-    .footer-bottom a { color: var(--gold); }
 
+    /* ===== RESPONSIVE FOOTER ===== */
+    @media (max-width: 1024px) {
+      .footer-grid { grid-template-columns: 2fr 2fr !important; gap: 24px !important; }
+    }
+    @media (max-width: 768px) {
+      .footer-grid { grid-template-columns: 2fr 2fr !important; gap: 20px !important; }
+    }
+    @media (max-width: 480px) {
+      .footer-grid { grid-template-columns: 2fr 2fr !important; gap: 12px !important; padding-bottom: 24px !important; }
+      .footer-grid > div { padding: 0; }
+      .footer-col h5 { font-size: 1rem; margin-bottom: 12px; }
+      .footer-col p { font-size: 0.85rem; line-height: 1.4; }
+      .footer-col ul { font-size: 0.85rem; }
+    }
 </style>
 <!-- ===================== FOOTER ===================== -->
 <footer id="footer" role="contentinfo">
@@ -111,4 +128,12 @@
 <button id="scroll-top" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></button>
 
 <script src="assets/script.js"></script>
-  
+  <!-- ================= SPLASH SCREEN ================= -->
+<script>
+window.addEventListener("load", function() {
+  setTimeout(function() {
+    const splash = document.getElementById("splash-screen");
+    if (splash) splash.style.display = "none";
+  }, 1200);
+});
+</script>

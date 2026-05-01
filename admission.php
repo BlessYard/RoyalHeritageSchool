@@ -237,7 +237,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                target="_blank" class="btn-wa-green">
               <i class="bi bi-whatsapp me-1"></i> Chat on WhatsApp
             </a>
-            <a href="contacts.php" class="btn btn-dl-outline " style="color: #fff;">Visit Contact Page</a>
+            <a href="contacts.php" class="btn slide-cta-outline" style="color: #fff; text-align: center !important;">Visit Contact Page</a>
           </div>
         </div>
       </div>
