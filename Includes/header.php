@@ -34,14 +34,14 @@ $meta_keywords = "Royal Heritage School, best school, quality education, day car
    <link rel="shortcut icon" href="Assets/images/logo.png">
 </head>
 <body>
-
-<?php if (basename($_SERVER['PHP_SELF']) === 'index.php'): ?>
+<!-- 
+<?php //if (basename($_SERVER['PHP_SELF']) === 'index.php'): ?>
 <div id="splash-screen">
     <img src="Assets/images/logo.png" alt="Royal Heritage School Logo">
     <h3>Royal Heritage School -</h3>
     <h4> Quality Education for Future Generations</h4>
 </div>
-<?php endif; ?>
+<?php //endif; ?> -->
 
 <!-- ===================== TOP BAR ===================== -->
 <div id="top-bar" role="complementary" aria-label="Contact and quick links">

@@ -43,11 +43,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="slide-overlay"></div>
   <div class="page-hero-inner">
     <div class="page-hero-text">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="index.php">Home</a>
-        <i class="fas fa-chevron-right"></i>
-        <span>Admissions</span>
-      </nav>
     <h1 id="page-hero-heading">Admissions</h1>
     <p>Join Royal Heritage School and give your child a strong foundation.</p>
     </div>
@@ -217,7 +212,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
               </div>
 
               <div class="col-12 text-center">
-                <button type="submit" class="btn btn-navy-solid btn-lg">Submit Application</button>
+                <button type="submit" class="btn btn-navy btn-lg">Submit Application</button>
               </div>
 
             </div>

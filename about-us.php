@@ -6,11 +6,6 @@
   <div class="slide-overlay"></div>
   <div class="page-hero-inner">
     <div class="page-hero-text">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="index.php">Home</a>
-        <i class="fas fa-chevron-right"></i>
-        <span>About Us</span>
-      </nav>
       <h1 id="page-hero-heading">About Royal Heritage</h1>
       <p>Our story, mission, and values.</p>
     </div>

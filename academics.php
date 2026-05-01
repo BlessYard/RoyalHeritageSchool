@@ -48,11 +48,6 @@ foreach ($calendarEvents as $date => $eventData) {
   <div class="slide-overlay"></div>
   <div class="page-hero-inner">
     <div class="page-hero-text">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="index.php">Home</a>
-        <i class="fas fa-chevron-right"></i>
-        <span>Academics</span>
-      </nav>
       <h1 id="page-hero-heading">Academics</h1>
       <p>We are more than a school </p>
     </div>
@@ -237,7 +232,7 @@ foreach ($calendarEvents as $date => $eventData) {
 
       <!-- Download -->
       <div class="text-center mt-4">
-        <button type="button" class="btn btn-navy-solid btn-lg" onclick="window.print()">
+        <button type="button" class="btn btn-navy btn-lg" onclick="window.print()">
           <i class="bi bi-file-earmark-pdf-fill me-2"></i>Download Calendar PDF
         </button>
         <p class="small text-muted mt-2 mb-0">Click the button and choose Save as PDF in the print dialog.</p>
@@ -253,6 +248,44 @@ foreach ($calendarEvents as $date => $eventData) {
     </div>
   </div>
 </section>
+<!-- ── Vanilla JS calendar slider ── -->
+<script>
+(function () {
+  var slides   = document.getElementById('calSlides');
+  var prevBtn  = document.getElementById('calPrev');
+  var nextBtn  = document.getElementById('calNext');
+  var counter  = document.getElementById('calCounter');
+  var titleEl  = document.getElementById('activeMonthInfoTitle');
+  var listEl   = document.getElementById('activeMonthInfoList');
+
+  if (!slides || !prevBtn || !nextBtn) return;
+
+  var total   = slides.children.length;
+  var current = 0;
+
+  function goTo(index) {
+    current = index;
+    slides.style.transform = 'translateX(-' + (current * 100) + '%)';
+    counter.textContent    = (current + 1) + ' / ' + total;
+    prevBtn.disabled       = current === 0;
+    nextBtn.disabled       = current === total - 1;
+    syncSidebar();
+  }
+
+  function syncSidebar() {
+    var slide      = slides.children[current];
+    var sourceTitle = slide.querySelector('.month-events-title');
+    var sourceList  = slide.querySelector('.month-events-list');
+    titleEl.textContent = sourceTitle ? sourceTitle.textContent.trim() : 'Key Dates In This Month';
+    listEl.innerHTML    = sourceList  ? sourceList.innerHTML            : '<li>No key academic dates in this month.</li>';
+  }
+
+  prevBtn.addEventListener('click', function () { if (current > 0)         goTo(current - 1); });
+  nextBtn.addEventListener('click', function () { if (current < total - 1) goTo(current + 1); });
+
+  goTo(0); // initialise
+})();
+</script>
 
 <!-- ===================== FINAL CTA ===================== -->
 <section id="cta-final" aria-labelledby="cta-heading">
@@ -263,7 +296,7 @@ foreach ($calendarEvents as $date => $eventData) {
         <p>Join the Royal Heritage family — where excellence, character, and purpose come together.</p>
       </div>
       <div class="cta-btns">
-        <a href="admission.php" class="btn-navy-solid"><i class="fas fa-pen"></i> Apply Now!</a>
+        <a href="admission.php" class="btn-navy"><i class="fas fa-pen"></i> Apply Now!</a>
       </div>
     </div>
   </div>

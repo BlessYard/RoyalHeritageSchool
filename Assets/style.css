@@ -242,20 +242,6 @@
     .slide-cta-outline:hover { border-color: var(--gold); background: rgba(201,150,44,0.15); }
 
     /* Slider controls */
-    .slider-arrows {
-      position: absolute; bottom: 36px; right: 5%;
-      display: flex; gap: 10px; z-index: 10;
-    }
-    .arrow-btn {
-      width: 44px; height: 44px; border-radius: 50%;
-      background: rgba(255,255,255,0.15);
-      border: 2px solid rgba(255,255,255,0.35);
-      color: var(--white); font-size: 1rem;
-      cursor: pointer; display: flex; align-items: center; justify-content: center;
-      transition: background var(--transition), border-color var(--transition);
-      backdrop-filter: blur(4px);
-    }
-    .arrow-btn:hover { background: var(--gold); border-color: var(--gold); color: var(--navy); }
     .slider-dots {
       position: absolute; bottom: 44px; left: 50%;
       transform: translateX(-50%);
@@ -276,7 +262,7 @@
       padding: 13px 28px; border-radius: 30px;
       transition: background var(--transition);
     }
-    .btn-navy:hover { background: var(--navy-light); }
+    .btn-navy:hover { background: var(--navy-light); color: var(--white) !important;}
 
  /* Solid download button */
   .btn-dl-solid,  .btn-dl-outline  {
@@ -340,13 +326,6 @@
     }
     .cta-text p { font-size: 0.95rem; color: rgba(11,31,58,.70); }
     .cta-btns { display: flex; gap: 14px; flex-wrap: wrap; position: relative; z-index: 1; }
-    .btn-navy-solid {
-      background: var(--navy); color: var(--white);
-      font-weight: 700; font-size: 0.9rem;
-      padding: 14px 30px; border-radius: 30px;
-      transition: background var(--transition);
-    }
-    .btn-navy-solid:hover { background: var(--navy-light); }
     .btn-outline-navy {
       border: 2px solid var(--navy); color: var(--navy);
       font-weight: 600; font-size: 0.9rem;
@@ -360,20 +339,14 @@
       background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 55%, rgba(201,150,44,.18) 100%);
       padding: 80px 0 70px; position: relative; overflow: hidden;
       background: url('images/banner2.jpeg'); background-size: cover; background-position: center;
+      display: flex; align-items: center;
     }
     .page-hero-inner {
       max-width: 1280px; margin: 0 auto; padding: 0 24px;
       display: flex; align-items: center; justify-content: space-between;
-      gap: 32px; flex-wrap: wrap; position: relative; z-index: 1;
+      gap: 32px; flex-wrap: wrap; position: relative; z-index: 1; text-align: center;
     }
-    .page-hero-text { color: var(--white); }
-    .breadcrumb {
-      display: flex; align-items: center; gap: 8px;
-      font-size: .78rem; color: rgba(255,255,255,.60); margin-bottom: 14px;
-    }
-    .breadcrumb a { color: var(--gold-light); transition: color var(--transition); }
-    .breadcrumb a:hover { color: var(--white); }
-    .breadcrumb i { font-size: .65rem; }
+    .page-hero-text { color: var(--white);}
     .page-hero-text h1 {
       font-family: var(--font-head); font-size: clamp(2rem, 4vw, 3rem);
       font-weight: 900; line-height: 1.15; margin-bottom: 14px;
@@ -928,24 +901,24 @@
 
 .testimonial-card {
     background: var(--white);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-sm);
+    border-radius: 40px;
+    box-shadow: var(--shadow);
     padding: 28px 24px 22px;
     height: 100%;
     position: relative;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
-    border-top: 4px solid var(--purple-700);
+    border-top: 4px solid var(--navy-light);
 }
 
 .testimonial-card:hover {
     transform: translateY(-4px);
-    box-shadow: var(--shadow-md);
+    box-shadow: var(--shadow);
 }
 
 .testimonial-quote {
     font-size: 2.4rem;
     line-height: 1;
-    color: var(--purple-700);
+    color: var(--navy-light);
     opacity: 0.25;
     margin-bottom: 10px;
 }
@@ -969,5 +942,5 @@
     height: 48px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid var(--purple-700);
+    border: 2px solid var(--navy);
 }

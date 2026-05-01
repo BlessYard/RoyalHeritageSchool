@@ -5,7 +5,6 @@
     .transition-hover:hover { transform: translateY(-10px); background-color: #fff !important; box-shadow: 0 1rem 3rem rgba(0,0,0,.05) !important; }
     .min-vh-50 { min-height: 50vh; }
     .form-control:focus { background-color: #fff !important; border: 1px solid var(--royal-gold) !important; box-shadow: none; }
-    
     #bg{
       background-color: #0b1f3a !important;
     }
@@ -16,11 +15,6 @@
     <div class="slide-overlay"></div>
   <div class="page-hero-inner">
     <div class="page-hero-text">
-      <nav class="breadcrumb" aria-label="Breadcrumb">
-        <a href="index.php">Home</a>
-        <i class="fas fa-chevron-right"></i>
-        <span>Contact Us</span>
-      </nav>
     <h1 id="page-hero-heading">contact Us</h1>
     <p>We would love to hear from you.</p>
     </div>
@@ -80,7 +74,7 @@
                         <textarea class="form-control form-control-lg border-0 bg-light" rows="5" placeholder="Your Message" required></textarea>
                     </div>
                      <div class="col-12 text-center">
-                <button type="submit" class="btn btn-navy-solid btn-lg">Send Message</button>
+                <button type="submit" class="btn btn-navy btn-lg">Send Message</button>
               </div>
                 </form>
             </div>

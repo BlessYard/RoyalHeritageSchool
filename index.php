@@ -49,13 +49,6 @@
     <button class="dot" role="tab" aria-selected="false" aria-label="Go to slide 2"></button>
     <button class="dot" role="tab" aria-selected="false" aria-label="Go to slide 3"></button>
   </div>
-
-
-  <!-- Arrows -->
-  <div class="slider-arrows">
-    <button class="arrow-btn" id="heroPrev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
-    <button class="arrow-btn" id="heroNext" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
-  </div>
 </section>
 
 
@@ -236,7 +229,7 @@
       <div class="col-md-4"><img src="Assets/images/banner2.jpeg" class="gallery-img" alt="Activity two"></div>
       <div class="col-md-4"><img src="Assets/images/banner3.jpeg" class="gallery-img" alt="Activity three"></div>
       <div>
-    <a href="gallery.php" class="btn btn-school mt-4">View Full Gallery</a></div>
+    <a href="gallery.php" class="btn  btn-navy  mt-4">View Full Gallery</a></div>
   </div>
 </section>
 
@@ -308,7 +301,7 @@
         <p>Join the Royal Heritage family — where excellence, character, and purpose come together.</p>
       </div>
       <div class="cta-btns">
-        <a href="admission.php" class="btn-navy-solid"><i class="fas fa-pen"></i> Apply Now</a>
+        <a href="admission.php" class="btn-navy"><i class="fas fa-pen"></i> Apply Now</a>
         <a href="contacts.php" class="btn-outline-navy"><i class="fas fa-phone"></i> Contact Us</a>
       </div>
     </div>
