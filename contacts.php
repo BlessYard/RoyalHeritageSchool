@@ -1,4 +1,4 @@
-<?php include_once 'includes/header.php'; ?>
+<?php include_once 'Includes/header.php'; ?>
 <style>
     .ls-3 { letter-spacing: 3px; }
     .transition-hover { transition: transform 0.3s ease, background-color 0.3s ease; }
@@ -110,4 +110,4 @@
         </div>
     </div>
 </section>
-<?php include_once 'includes/footer.php'; ?>
+<?php include_once 'Includes/footer.php'; ?>

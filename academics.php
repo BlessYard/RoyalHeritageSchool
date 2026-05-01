@@ -1,4 +1,4 @@
-<?php include_once 'includes/header.php'; ?>
+<?php include_once 'Includes/header.php'; ?>
 <?php
 $calendarEvents = [
   '2026-08-25' => ['title' => 'Registration Begins',        'term' => 'term-one'],
@@ -269,4 +269,4 @@ foreach ($calendarEvents as $date => $eventData) {
   </div>
 </section>
 
-<?php include_once 'includes/footer.php'; ?>
+<?php include_once 'Includes/footer.php'; ?>

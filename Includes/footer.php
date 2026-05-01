@@ -65,7 +65,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="index.php" class="logo-wrap" aria-label="Royal Heritage School">
-          <div class="logo-icon"><img src="assets/images/logo.png" alt="Royal logo"></div>
+          <div class="logo-icon"><img src="Assets/images/logo.png" alt="Royal logo"></div>
           <div class="logo-text-wrap">
             <div class="logo-name">Royal Heritage</div>
             <div class="logo-motto">Quality Education for Future Generations</div>
@@ -127,7 +127,7 @@
 <!-- Scroll to Top -->
 <button id="scroll-top" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></button>
 
-<script src="assets/script.js"></script>
+<script src="Assets/script.js"></script>
   <!-- ================= SPLASH SCREEN ================= -->
 <script>
 window.addEventListener("load", function() {

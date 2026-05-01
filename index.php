@@ -1,4 +1,4 @@
-<?php include_once 'includes/header.php'; ?>
+<?php include_once 'Includes/header.php'; ?>
 
 
 <!-- ===================== HERO SLIDER ===================== -->
@@ -187,7 +187,7 @@
           <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
           <p class="testimonial-text">"Logic School has transformed my child's confidence and love for learning. The teachers are caring and very professional."</p>
           <div class="testimonial-author">
-            <img src="assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
+            <img src="Assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
             <div>
               <strong>Mrs. Sandra N. Banks</strong>
               <small class="d-block text-muted">Parent of Grade 3 Student</small>
@@ -201,7 +201,7 @@
           <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
           <p class="testimonial-text">"The values and discipline taught at Logic School are remarkable. My son has grown so much both academically and in character."</p>
           <div class="testimonial-author">
-            <img src="assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
+            <img src="Assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
             <div>
               <strong>Patience Mataley</strong>
               <small class="d-block text-muted">Parent of Grade 5 Student</small>
@@ -215,7 +215,7 @@
           <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
           <p class="testimonial-text">"I am proud to have my daughter enrolled here. The school genuinely cares about every child and it shows in the results."</p>
           <div class="testimonial-author">
-            <img src="assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
+            <img src="Assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
             <div>
               <strong>Rebecca T. Telo</strong>
               <small class="d-block text-muted">Parent of Kindergarten Student</small>
@@ -232,9 +232,9 @@
   <div class="container text-center">
     <h2 class="section-title">School Activities</h2>
     <div class="row g-3 mt-2">
-      <div class="col-md-4"><img src="assets/images/banner1.jpeg" class="gallery-img" alt="Activity one"></div>
-      <div class="col-md-4"><img src="assets/images/banner2.jpeg" class="gallery-img" alt="Activity two"></div>
-      <div class="col-md-4"><img src="assets/images/banner3.jpeg" class="gallery-img" alt="Activity three"></div>
+      <div class="col-md-4"><img src="Assets/images/banner1.jpeg" class="gallery-img" alt="Activity one"></div>
+      <div class="col-md-4"><img src="Assets/images/banner2.jpeg" class="gallery-img" alt="Activity two"></div>
+      <div class="col-md-4"><img src="Assets/images/banner3.jpeg" class="gallery-img" alt="Activity three"></div>
       <div>
     <a href="gallery.php" class="btn btn-school mt-4">View Full Gallery</a></div>
   </div>
@@ -314,4 +314,4 @@
     </div>
   </div>
 </section>
-<?php include_once 'includes/footer.php'; ?>
+<?php include_once 'Includes/footer.php'; ?>

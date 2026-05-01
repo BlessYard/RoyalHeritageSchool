@@ -1,4 +1,4 @@
-<?php include("includes/header.php"); ?>
+<?php include("Includes/header.php"); ?>
 
 <?php
 $success = "";
@@ -246,4 +246,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
 </section>
 
-<?php include_once 'includes/footer.php'; ?>
+<?php include_once 'Includes/footer.php'; ?>

@@ -26,19 +26,20 @@ $meta_keywords = "Royal Heritage School, best school, quality education, day car
 
   <!-- Bootstrap 5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="assets/style.css">
-  <link rel="stylesheet" href="assets/mediaquiries.css">
+  <link rel="stylesheet" href="Assets/style.css">
+  <link rel="stylesheet" href="Assets/mediaquiries.css">
 
-   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
-    <link rel="shortcut icon" href="assets/images/logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="Assets/images/logo.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="Assets/images/logo.png">
+   <link rel="shortcut icon" href="Assets/images/logo.png">
 </head>
 <body>
 
 <?php if (basename($_SERVER['PHP_SELF']) === 'index.php'): ?>
 <div id="splash-screen">
-    <img src="assets/images/logo.png" alt="Royal Heritage School Logo">
-    <h3>Royal Heritage School - Quality Education for Future Generations</h3>
+    <img src="Assets/images/logo.png" alt="Royal Heritage School Logo">
+    <h3>Royal Heritage School -</h3>
+    <h4> Quality Education for Future Generations</h4>
 </div>
 <?php endif; ?>
 
@@ -63,7 +64,7 @@ $meta_keywords = "Royal Heritage School, best school, quality education, day car
 <header id="main-header" role="banner">
   <div class="header-inner">
     <a href="index.php" class="logo-wrap" aria-label="Royal Heritage School Home">
-      <div class="logo-icon"><img src="assets/images/logo.png" alt=""></div>
+      <div class="logo-icon"><img src="Assets/images/logo.png" alt=""></div>
       <div class="logo-text-wrap">
         <div class="logo-name">Royal Heritage</div>
         <div class="logo-motto">Quality Education for Future Generations</div>

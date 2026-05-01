@@ -1,4 +1,4 @@
-<?php include_once 'includes/header.php'; ?>
+<?php include_once 'Includes/header.php'; ?>
 </head>
 <body>
 <!-- ===== PAGE HERO ===== -->
@@ -200,6 +200,6 @@
     </div>
   </div>
 </section>
-<?php include_once 'includes/footer.php'; ?>
+<?php include_once 'Includes/footer.php'; ?>
 </body>
 </html>
