@@ -128,12 +128,3 @@
 <button id="scroll-top" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></button>
 
 <script src="Assets/script.js"></script>
-  <!-- ================= SPLASH SCREEN ================= -->
-<script>
-window.addEventListener("load", function() {
-  setTimeout(function() {
-    const splash = document.getElementById("splash-screen");
-    if (splash) splash.style.display = "none";
-  }, 1200);
-});
-</script>

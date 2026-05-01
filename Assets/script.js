@@ -7,6 +7,14 @@
     ham.setAttribute('aria-expanded', open);
   });
 
+  // ---- Splash screen ----
+  const splash = document.getElementById('splash-screen');
+  if (splash) {
+    setTimeout(() => {
+      splash.style.display = 'none';
+    }, 1200);
+  }
+
   
   // ---- Sticky header shadow ----
   const header = document.getElementById('main-header');
@@ -84,7 +92,6 @@
     observer.observe(el);
   });
 
-calender
 (function () {
   var slides   = document.getElementById('calSlides');
   var prevBtn  = document.getElementById('calPrev');
