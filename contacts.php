@@ -15,7 +15,7 @@
     <div class="slide-overlay"></div>
   <div class="page-hero-inner">
     <div class="page-hero-text">
-    <h1 id="page-hero-heading">contact Us</h1>
+    <h1 id="page-hero-heading">Contact Us</h1>
     <p>We would love to hear from you.</p>
     </div>
 

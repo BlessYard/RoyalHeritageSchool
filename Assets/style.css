@@ -102,6 +102,16 @@
     border: none;
     object-fit: cover;
 }
+@media screen and (max-width: 780px) {
+    #splash-screen img {
+        width: 80px;
+        height: 80px;
+    }
+    #splash-screen h3, #splash-screen h4 {
+        font-size: 1.2rem;
+    }
+  
+}
 
 /* ============BUTTONS======= */
     .btn-admit-top {

@@ -38,7 +38,7 @@
     /* ===== RESPONSIVE ===== */
     @media (max-width: 1024px) {
       .welcome-grid, .why-grid { grid-template-columns: 1fr; gap: 40px; }
-      .why-visual, .welcome-img-placeholder { height: 340px; }
+      .why-visual, .welcome-img-placeholder { height: 430px !important; }
       .stats-grid { grid-template-columns: repeat(2,1fr); }
       .programs-grid { grid-template-columns: repeat(2,1fr); }
       .test-slide { grid-template-columns: 1fr 1fr; }
@@ -91,7 +91,7 @@
       
       /* Images & Cards */
       .why-features { grid-template-columns: 1fr; }
-      .welcome-img-placeholder, .why-visual { height: 280px; }
+      .welcome-img-placeholder, .why-visual { height: 430px!important; }
       .team-photo { height: 180px; }
       .founder-grid { gap: 24px; }
       .founder-photo { max-width: 100%; }
