@@ -32,24 +32,24 @@
       <div class="col-lg-4">
         <div class="info-card admission-mini-card">
           <i class="bi bi-calendar-check-fill"></i>
-          <h5>Rolling Admissions</h5>
-          <p class="mb-0">Applications are reviewed promptly during each intake period.</p>
+          <h5>Locate Us</h5>
+          <p class="mb-0">A24th Street Sinkor <br> Monrovia, Liberia </p>
         </div>
       </div>
 
       <div class="col-lg-4">
         <div class="info-card admission-mini-card">
           <i class="bi bi-people-fill"></i>
-          <h5>Parent Support</h5>
-          <p class="mb-0">Our team guides parents through every step from inquiry to enrollment.</p>
+          <h5>Contact Us</h5>
+          <p class="mb-0">+231 88 123 456 <br> 231 456 7890</p>
         </div>
       </div>
 
       <div class="col-lg-4">
         <div class="info-card admission-mini-card">
           <i class="bi bi-mortarboard-fill"></i>
-          <h5>Grade Placement</h5>
-          <p class="mb-0">Students are placed based on age, records, and readiness assessment.</p>
+          <h5>Email Us</h5>
+          <p class="mb-0">info@royschool.com <br> admissions@royschool.com</p>
         </div>
       </div>
 
@@ -94,17 +94,17 @@
     </div>
 </section>
 
-<section class="py-5 bg-dark text-white text-center">
+<section class="py-5 text-white text-center" id="bg">
     <div class="container" data-aos="zoom-in">
         <h4 class="fw-light ls-2 mb-4">SCHOOL OFFICE HOURS</h4>
         <div class="d-flex justify-content-center gap-5 flex-wrap">
             <div>
-                <p class="mb-0 text-muted small">MONDAY - FRIDAY</p>
+                <p class="mb-0 text-white small">MONDAY - FRIDAY</p>
                 <h5 class="fw-bold">8:00 AM - 4:00 PM</h5>
             </div>
-            <div style="width: 1px; background: var(--navy);"></div>
+            <div style="width: 1px; "></div>
             <div>
-                <p class="mb-0 text-muted small">SATURDAY</p>
+                <p class="mb-0 text-white small">SATURDAY</p>
                 <h5 class="fw-bold">9:00 AM - 12:00 PM</h5>
             </div>
         </div>

@@ -462,6 +462,11 @@
     border-color: var(--navy);
   }
 
+  #bg{
+    background: var(--navy) !important;
+    color: var(--white) !important;
+    border-bottom: 2px solid var(--gold) !important;
+  }
     /* ===== CTA FINAL ===== */
     #cta-final {
       background: var(--cream);

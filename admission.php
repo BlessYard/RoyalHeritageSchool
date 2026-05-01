@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message  = trim($_POST['message']);
 
     if (!empty($fullname) && !empty($email) && !empty($phone) && !empty($class)) {
-        $whatsapp_number = "231000000000"; // ← Replace with real WhatsApp number
+        $whatsapp_number = "231000000000"; 
 
         $text  = "New Admission Application:%0A";
         $text .= "Name: "    . urlencode($fullname) . "%0A";
@@ -237,7 +237,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                target="_blank" class="btn-wa-green">
               <i class="bi bi-whatsapp me-1"></i> Chat on WhatsApp
             </a>
-            <a href="contacts.php" class="btn btn-outline-navy">Visit Contact Page</a>
+            <a href="contacts.php" class="btn btn-dl-outline " style="color: #fff;">Visit Contact Page</a>
           </div>
         </div>
       </div>
