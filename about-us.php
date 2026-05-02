@@ -164,7 +164,7 @@
       </article>
 
       <article class="team-card reveal">
-        <img src="Assets/images/team-3.jpg" alt="Guidance Counselor" class="team-image">
+        <img src="Assets/images/Proprietor.jpeg" alt="Guidance Counselor" class="team-image">
         <div class="team-body">
           <h4>Guidance Counselor</h4>
           <div class="team-role">Student Welfare Officer</div>
@@ -172,7 +172,7 @@
       </article>
 
       <article class="team-card reveal">
-        <img src="Assets/images/team-4.jpg" alt="Administrative Manager" class="team-image">
+        <img src="Assets/images/Proprietor.jpeg" alt="Administrative Manager" class="team-image">
         <div class="team-body">
           <h4>Administrative Manager</h4>
           <div class="team-role">Operations Head</div>
