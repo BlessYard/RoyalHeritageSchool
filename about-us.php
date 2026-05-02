@@ -156,7 +156,7 @@
       </article>
 
       <article class="team-card reveal">
-        <img src="Assets/images/team-2.jpg" alt="Head Teacher" class="team-image">
+        <img src="Assets/images/Proprietor.jpeg" alt="Head Teacher" class="team-image">
         <div class="team-body">
           <h4>Head Teacher</h4>
           <div class="team-role">Academic Head</div>
