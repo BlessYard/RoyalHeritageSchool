@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message  = trim($_POST['message']);
 
     if (!empty($fullname) && !empty($email) && !empty($message)) {
-        $to      = "info@royalheritageschool.lr";
+        $to      = "info@royalheritages.com";
         $subject_line = "Contact Form Submission: $subject";
         $body    = "New Contact Form Submission:\n\n";
         $body   .= "Name: $fullname\n";
