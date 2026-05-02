@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message  = trim($_POST['message']);
 
     if (!empty($fullname) && !empty($email) && !empty($phone) && !empty($class)) {
-        $whatsapp_number = "231000000000"; 
+        $whatsapp_number = "231777006500"; 
 
         $text  = "New Admission Application:%0A";
         $text .= "Name: "    . urlencode($fullname) . "%0A";
@@ -225,10 +225,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="contact-card h-100 admission-help-card">
           <h5 class="mb-3">Need Help?</h5>
           <p class="mb-3">Our admissions desk can help with forms, document preparation, and class placement guidance.</p>
-          <p class="mb-2"><i class="bi bi-telephone-fill me-2"></i>+231 000 000 000</p>
+          <p class="mb-2"><i class="bi bi-telephone-fill me-2"></i>+231 777-006-500</p>
           <p class="mb-3"><i class="bi bi-envelope-fill me-2"></i>info@royalheritageschool.lr</p>
           <div class="d-grid gap-2">
-            <a href="https://wa.me/231000000000?text=Hello%20Admissions%20Team,%20I%20need%20help%20with%20my%20application."
+            <a href="https://wa.me/231777006500?text=Hello%20Admissions%20Team,%20I%20need%20help%20with%20my%20application."
                target="_blank" class="btn-wa-green">
               <i class="bi bi-whatsapp me-1"></i> Chat on WhatsApp
             </a>
