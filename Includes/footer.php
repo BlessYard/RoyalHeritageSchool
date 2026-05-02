@@ -73,10 +73,10 @@
         </a>
         <p style="margin-top:16px;">Royal Heritage School is dedicated to delivering high-quality, holistic education in a safe and supportive environment — empowering each child to reach their full potential.</p>
         <div class="footer-socials">
-          <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social-btn" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="social-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://www.facebook.com/share/18uBPrhAKN/" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/" class="social-btn" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/" class="social-btn" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/231777006500" class="social-btn" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
       <div class="footer-col">
@@ -105,11 +105,11 @@
         </div>
         <div class="footer-contact-item">
           <i class="fas fa-phone"></i>
-          <span>+231 000 000 000</span>
+          <span>+231 777-006-500</span>
         </div>
         <div class="footer-contact-item">
           <i class="fas fa-envelope"></i>
-          <span>info@royalheritageschool.com</span>
+          <span>info@royalheritages.com</span>
         </div>
         <div class="footer-contact-item">
           <i class="fas fa-clock"></i>

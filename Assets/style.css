@@ -336,13 +336,47 @@
     }
     .cta-text p { font-size: 0.95rem; color: rgba(11,31,58,.70); }
     .cta-btns { display: flex; gap: 14px; flex-wrap: wrap; position: relative; z-index: 1; }
-    .btn-outline-navy {
-      border: 2px solid var(--navy); color: var(--navy);
-      font-weight: 600; font-size: 0.9rem;
-      padding: 12px 28px; border-radius: 30px;
-      transition: background var(--transition);
+    .btn-navy-solid {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--navy);
+      color: var(--white);
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 14px 32px;
+      border-radius: 30px;
+      transition: all var(--transition);
+      box-shadow: 0 4px 15px rgba(139, 0, 0, 0.3);
+      border: none;
+      cursor: pointer;
     }
-    .btn-outline-navy:hover { background: rgba(11,31,58,.08); }
+    .btn-navy-solid:hover {
+      background: var(--gold);
+      color: var(--navy);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(139, 0, 0, 0.4);
+    }
+    .btn-outline-navy {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: 2px solid var(--navy);
+      color: var(--navy);
+      background: transparent;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 12px 28px;
+      border-radius: 30px;
+      transition: all var(--transition);
+      cursor: pointer;
+    }
+    .btn-outline-navy:hover {
+      background: var(--navy);
+      color: var(--white);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px rgba(139, 0, 0, 0.2);
+    }
 
  /* ===== PAGE HERO For every page ===== */
     #page-hero {
@@ -643,12 +677,7 @@
       transition: transform var(--transition), box-shadow var(--transition);
     }
     .team-card:hover { transform: translateY(-8px); box-shadow: 0 16px 40px rgba(11,31,58,.13); }
-    .team-photo {
-      height: 240px;
-      background-image: url('images/banner2.jpeg'); background-size: cover; background-position: center ;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      color: rgba(255,255,255,.3); gap: 8px;
-    }
+    .team-image { width: 100%; height: 240px; object-fit: cover; display: block; }
     .team-body { padding: 24px 20px; }
     .team-body h4 { font-family: var(--font-head); font-size: 1.08rem; font-weight: 700; color: var(--navy); margin-bottom: 4px; }
     .team-role { font-size: .78rem; font-weight: 600; color: var(--gold); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 10px; }

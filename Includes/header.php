@@ -47,14 +47,13 @@ $meta_keywords = "Royal Heritage School, best school, quality education, day car
 <div id="top-bar" role="complementary" aria-label="Contact and quick links">
   <div class="top-bar-inner">
     <div class="top-bar-left">
-      <span><i class="fas fa-phone"></i> +231 000 000 000</span>
-      <span><i class="fas fa-envelope"></i> info@royalheritageschool.com</span>
+      <span><i class="fas fa-phone"></i> +231 777-006-500</span>
+      <span><i class="fas fa-envelope"></i> info@royalheritages.com</span>
       <span><i class="fas fa-map-marker-alt"></i> Monrovia, Liberia</span>
     </div>
     <div class="top-bar-right">
-      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-      <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://www.facebook.com/share/18uBPrhAKN/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://wa.me/231777006500" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
       <a href="admission.php" class="btn-admit-top">Admissions Open</a>
     </div>
   </div>

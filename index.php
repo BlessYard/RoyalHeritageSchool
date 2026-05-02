@@ -178,9 +178,9 @@
       <div class="col-md-4">
         <div class="testimonial-card">
           <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
-          <p class="testimonial-text">"Logic School has transformed my child's confidence and love for learning. The teachers are caring and very professional."</p>
+          <p class="testimonial-text">"Royal Heritage School has transformed my child's confidence and love for learning. The teachers are caring and very professional."</p>
           <div class="testimonial-author">
-            <img src="Assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
+            <img src="Assets/images/Proprietor.jpeg" class="testimonial-avatar" alt="Parent">
             <div>
               <strong>Mrs. Sandra N. Banks</strong>
               <small class="d-block text-muted">Parent of Grade 3 Student</small>
@@ -192,9 +192,9 @@
       <div class="col-md-4">
         <div class="testimonial-card">
           <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
-          <p class="testimonial-text">"The values and discipline taught at Logic School are remarkable. My son has grown so much both academically and in character."</p>
+          <p class="testimonial-text">"The values and discipline taught at Royal Heritage School are remarkable. My son has grown so much both academically and in character."</p>
           <div class="testimonial-author">
-            <img src="Assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
+            <img src="Assets/images/Proprietor.jpeg" class="testimonial-avatar" alt="Parent">
             <div>
               <strong>Patience Mataley</strong>
               <small class="d-block text-muted">Parent of Grade 5 Student</small>
@@ -208,7 +208,7 @@
           <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
           <p class="testimonial-text">"I am proud to have my daughter enrolled here. The school genuinely cares about every child and it shows in the results."</p>
           <div class="testimonial-author">
-            <img src="Assets/images/proprietor.jpeg" class="testimonial-avatar" alt="Parent">
+            <img src="Assets/images/Proprietor.jpeg" class="testimonial-avatar" alt="Parent">
             <div>
               <strong>Rebecca T. Telo</strong>
               <small class="d-block text-muted">Parent of Kindergarten Student</small>
@@ -287,7 +287,7 @@
  
     <!-- Help note -->
     <p class="text-center text-muted mt-4 small">
-      Need help? Call us at <a href="tel:+23100000000" class="fw-600 text-gold">+231 000 000 000</a> for assistance.
+      Need help? Call us at <a href="tel:+231000000000" class="fw-600 text-gold">+231 000 000 000</a> for assistance.
     </p>
  
   </div>

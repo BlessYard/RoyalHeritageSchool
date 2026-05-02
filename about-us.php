@@ -148,32 +148,34 @@
     <div class="team-grid">
 
       <article class="team-card reveal">
-        <div class="team-photo">
-        </div>
+        <img src="Assets/images/Proprietor.jpeg" alt="Mr. Emmanuel D. Sao" class="team-image">
         <div class="team-body">
           <h4>Mr. Emmanuel D. Sao</h4>
           <div class="team-role">Founder & Director</div>
-          <p>Visionary leader and founder of Royal Heritage School, dedicated to building a generation of confident, disciplined, and purposeful learners through quality, value-based education.</p>
         </div>
       </article>
 
       <article class="team-card reveal">
-        <div class="team-photo">
-        </div>
+        <img src="Assets/images/team-2.jpg" alt="Head Teacher" class="team-image">
         <div class="team-body">
           <h4>Head Teacher</h4>
           <div class="team-role">Academic Head</div>
-          <p>Overseeing the school's academic programs, curriculum delivery, and teacher development to ensure every student receives the highest quality of instruction and support.</p>
         </div>
       </article>
 
       <article class="team-card reveal">
-        <div class="team-photo">
-        </div>
+        <img src="Assets/images/team-3.jpg" alt="Guidance Counselor" class="team-image">
         <div class="team-body">
-          <h4>Our Teaching Staff</h4>
-          <div class="team-role">Qualified Educators</div>
-          <p>A team of passionate, qualified teachers committed to providing personalized attention and mentorship — guiding each child's academic and personal development every day.</p>
+          <h4>Guidance Counselor</h4>
+          <div class="team-role">Student Welfare Officer</div>
+        </div>
+      </article>
+
+      <article class="team-card reveal">
+        <img src="Assets/images/team-4.jpg" alt="Administrative Manager" class="team-image">
+        <div class="team-body">
+          <h4>Administrative Manager</h4>
+          <div class="team-role">Operations Head</div>
         </div>
       </article>
 
