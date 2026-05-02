@@ -287,7 +287,7 @@
  
     <!-- Help note -->
     <p class="text-center text-muted mt-4 small">
-      Need help? Call us at <a href="tel:+231000000000" class="fw-600 text-gold">+231 000 000 000</a> for assistance.
+      Need help? Call us at <a href="tel:+231777006500" class="fw-600 text-gold">+231 777-006-500</a> for assistance.
     </p>
  
   </div>
