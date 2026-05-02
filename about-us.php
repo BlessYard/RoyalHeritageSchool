@@ -148,7 +148,7 @@
     <div class="team-grid">
 
       <article class="team-card reveal">
-        <img src="Assets/images/Proprietor.jpeg" alt="Mr. Emmanuel D. Sao" class="team-image">
+        <img src="Assets/images/Proprietor (1).jpeg" alt="Mr. Emmanuel D. Sao" class="team-image">
         <div class="team-body">
           <h4>Mr. Emmanuel D. Sao</h4>
           <div class="team-role">Founder & Director</div>
@@ -156,7 +156,7 @@
       </article>
 
       <article class="team-card reveal">
-        <img src="Assets/images/Proprietor.jpeg" alt="Head Teacher" class="team-image">
+        <img src="Assets/images/Proprietor (1).jpeg" alt="Head Teacher" class="team-image">
         <div class="team-body">
           <h4>Head Teacher</h4>
           <div class="team-role">Academic Head</div>
@@ -164,7 +164,7 @@
       </article>
 
       <article class="team-card reveal">
-        <img src="Assets/images/Proprietor.jpeg" alt="Guidance Counselor" class="team-image">
+        <img src="Assets/images/Proprietor (1).jpeg" alt="Guidance Counselor" class="team-image">
         <div class="team-body">
           <h4>Guidance Counselor</h4>
           <div class="team-role">Student Welfare Officer</div>
@@ -172,7 +172,7 @@
       </article>
 
       <article class="team-card reveal">
-        <img src="Assets/images/Proprietor.jpeg" alt="Administrative Manager" class="team-image">
+        <img src="Assets/images/Proprietor (1).jpeg" alt="Administrative Manager" class="team-image">
         <div class="team-body">
           <h4>Administrative Manager</h4>
           <div class="team-role">Operations Head</div>
