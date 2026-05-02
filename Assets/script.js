@@ -71,7 +71,7 @@
     dotsEls: document.querySelectorAll('.dot'),
     prevBtn: document.getElementById('heroPrev'),
     nextBtn: document.getElementById('heroNext'),
-    interval: 1500,
+    interval: 2000,
   });
 
 
