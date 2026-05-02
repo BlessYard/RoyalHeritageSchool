@@ -1,4 +1,37 @@
 <?php include_once 'Includes/header.php'; ?>
+
+<?php
+$success = "";
+$error = "";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $fullname = trim($_POST['fullname']);
+    $email    = trim($_POST['email']);
+    $subject  = trim($_POST['subject']);
+    $message  = trim($_POST['message']);
+
+    if (!empty($fullname) && !empty($email) && !empty($message)) {
+        $to      = "info@royalheritageschool.lr";
+        $subject_line = "Contact Form Submission: $subject";
+        $body    = "New Contact Form Submission:\n\n";
+        $body   .= "Name: $fullname\n";
+        $body   .= "Email: $email\n";
+        $body   .= "Subject: $subject\n";
+        $body   .= "Message:\n$message\n";
+        
+        $headers = "From: $email\r\nReply-To: $email";
+
+        if (mail($to, $subject_line, $body, $headers)) {
+            $success = "Thank you for contacting us! We'll get back to you soon.";
+        } else {
+            $error = "Sorry, there was an issue sending your message. Please try again.";
+        }
+    } else {
+        $error = "Please fill in all required fields.";
+    }
+}
+?>
+
 <style>
     .ls-3 { letter-spacing: 3px; }
     .transition-hover { transition: transform 0.3s ease, background-color 0.3s ease; }
@@ -31,7 +64,7 @@
         <div class="info-card admission-mini-card">
           <i class="bi bi-calendar-check-fill"></i>
           <h5>Locate Us</h5>
-          <p class="mb-0">A24th Street Sinkor <br> Monrovia, Liberia </p>
+          <p class="mb-0">24th Street Sinkor <br> Monrovia, Liberia </p>
         </div>
       </div>
 
@@ -39,7 +72,7 @@
         <div class="info-card admission-mini-card">
           <i class="bi bi-people-fill"></i>
           <h5>Contact Us</h5>
-          <p class="mb-0">+231 88 123 456 <br> 231 456 7890</p>
+          <p class="mb-0">+231 777-006-500</p>
         </div>
       </div>
 
@@ -47,7 +80,7 @@
         <div class="info-card admission-mini-card">
           <i class="bi bi-mortarboard-fill"></i>
           <h5>Email Us</h5>
-          <p class="mb-0">info@royschool.com <br> admissions@royschool.com</p>
+          <p class="mb-0">info@royalheritages.com <br> admissions@royalheritages.com</p>
         </div>
       </div>
 
@@ -60,18 +93,27 @@
         <div class="row g-0 shadow-lg rounded overflow-hidden">
             <div class="col-lg-6 p-5 bg-white" data-aos="fade-right">
                 <h2 class="fw-bold mb-4">Send a Message</h2>
-                <form action="#" method="POST">
+                
+                <?php if ($success): ?>
+                  <div class="alert alert-success text-center mb-4"><?php echo $success; ?></div>
+                <?php endif; ?>
+                
+                <?php if ($error): ?>
+                  <div class="alert alert-danger text-center mb-4"><?php echo $error; ?></div>
+                <?php endif; ?>
+                
+                <form action="contacts.php" method="POST">
                     <div class="mb-3">
-                        <input type="text" class="form-control form-control-lg border-0 bg-light" placeholder="Your Name" required>
+                        <input type="text" name="fullname" class="form-control form-control-lg border-0 bg-light" placeholder="Your Name" required>
                     </div>
                     <div class="mb-3">
-                        <input type="email" class="form-control form-control-lg border-0 bg-light" placeholder="Email Address" required>
+                        <input type="email" name="email" class="form-control form-control-lg border-0 bg-light" placeholder="Email Address" required>
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control form-control-lg border-0 bg-light" placeholder="Subject">
+                        <input type="text" name="subject" class="form-control form-control-lg border-0 bg-light" placeholder="Subject">
                     </div>
                     <div class="mb-4">
-                        <textarea class="form-control form-control-lg border-0 bg-light" rows="5" placeholder="Your Message" required></textarea>
+                        <textarea name="message" class="form-control form-control-lg border-0 bg-light" rows="5" placeholder="Your Message" required></textarea>
                     </div>
                      <div class="col-12 text-center">
                 <button type="submit" class="btn btn-navy btn-lg">Send Message</button>
