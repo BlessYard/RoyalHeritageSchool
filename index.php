@@ -180,7 +180,6 @@
           <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
           <p class="testimonial-text">"Royal Heritage School has transformed my child's confidence and love for learning. The teachers are caring and very professional."</p>
           <div class="testimonial-author">
-            <img src="Assets/images/Proprietor.jpeg" class="testimonial-avatar" alt="Parent">
             <div>
               <strong>Mrs. Sandra N. Banks</strong>
               <small class="d-block text-muted">Parent of Grade 3 Student</small>
@@ -194,7 +193,6 @@
           <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
           <p class="testimonial-text">"The values and discipline taught at Royal Heritage School are remarkable. My son has grown so much both academically and in character."</p>
           <div class="testimonial-author">
-            <img src="Assets/images/Proprietor.jpeg" class="testimonial-avatar" alt="Parent">
             <div>
               <strong>Patience Mataley</strong>
               <small class="d-block text-muted">Parent of Grade 5 Student</small>
@@ -208,7 +206,6 @@
           <div class="testimonial-quote"><i class="bi bi-quote"></i></div>
           <p class="testimonial-text">"I am proud to have my daughter enrolled here. The school genuinely cares about every child and it shows in the results."</p>
           <div class="testimonial-author">
-            <img src="Assets/images/Proprietor.jpeg" class="testimonial-avatar" alt="Parent">
             <div>
               <strong>Rebecca T. Telo</strong>
               <small class="d-block text-muted">Parent of Kindergarten Student</small>

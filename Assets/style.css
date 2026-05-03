@@ -984,10 +984,4 @@
     gap: 12px;
 }
 
-.testimonial-avatar {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid var(--navy);
-}
+
