@@ -4,7 +4,7 @@
   ham.addEventListener('click', () => {
     const open = ham.classList.toggle('open');
     mobileNav.classList.toggle('open');
-    ham.setAttribute('aria-expanded', open);
+    // ham.setAttribute('aria-expanded', open);
   });
 
   // ---- Splash screen ----
