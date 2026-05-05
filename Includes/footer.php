@@ -49,10 +49,34 @@
       .footer-grid { grid-template-columns: 2fr 2fr !important; gap: 24px !important; }
     }
     @media (max-width: 768px) {
-      .footer-grid { grid-template-columns: 2fr 2fr !important; gap: 20px !important; }
+      .footer-grid {
+        grid-template-columns: 1fr !important;
+        gap: 24px !important;
+        text-align: center;
+      }
+      .footer-brand .logo-wrap,
+      .footer-socials,
+      .footer-col ul {
+        justify-content: center;
+      }
+      .footer-col ul {
+        align-items: center;
+      }
+      .footer-contact-item {
+        justify-content: center;
+      }
+      .footer-bottom {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+      }
     }
     @media (max-width: 480px) {
-      .footer-grid { grid-template-columns: 2fr 2fr !important; gap: 12px !important; padding-bottom: 24px !important; }
+      .footer-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+        padding-bottom: 24px !important;
+      }
       .footer-grid > div { padding: 0; }
       .footer-col h5 { font-size: 1rem; margin-bottom: 12px; }
       .footer-col p { font-size: 0.85rem; line-height: 1.4; }
@@ -86,6 +110,7 @@
           <li><a href="about-us.php"><i class="fas fa-chevron-right"></i> About Us</a></li>
           <li><a href="academics.php"><i class="fas fa-chevron-right"></i> Academics</a></li>
           <li><a href="admission.php"><i class="fas fa-chevron-right"></i> Admissions</a></li>
+          <li><a href="donation.php"><i class="fas fa-chevron-right"></i> Donate</a></li>
           <li><a href="contacts.php"><i class="fas fa-chevron-right"></i> Contact</a></li>
         </ul>
       </div>
