@@ -1,7 +1,8 @@
 <?php
-$page_title = "Royal Heritage School – Quality Education for Future Generations";
-$meta_description = "Royal Heritage School is a premier Day Care, Kindergarten & Primary school dedicated to academic excellence, strong moral values, and holistic child development. Enroll today.";
-$meta_keywords = "Royal Heritage School, best school, quality education, day care, kindergarten, primary school, Liberia";
+$page_title = $page_title ?? "Royal Heritage School – Quality Education for Future Generations";
+$meta_description = $meta_description ?? "Royal Heritage School is a premier Day Care, Kindergarten & Primary school dedicated to academic excellence, strong moral values, and holistic child development. Enroll today.";
+$meta_keywords = $meta_keywords ?? "Royal Heritage School, best school, quality education, day care, kindergarten, primary school, Liberia";
+$current_page = basename($_SERVER['PHP_SELF']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -70,12 +71,13 @@ $meta_keywords = "Royal Heritage School, best school, quality education, day car
       </div>
     </a>
     <nav role="navigation" aria-label="Main navigation">
-      <a href="index.php" class="active">Home</a>
-      <a href="about-us.php">About Us</a>
-      <a href="admission.php">Admissions</a>
-      <a href="academics.php">Academics</a>
-      <a href="contacts.php">Contact</a>
-        <a href="login.php" class="btn-enroll">E-Portal</a>
+      <a href="index.php" class="<?= $current_page === 'index.php' ? 'active' : '' ?>">Home</a>
+      <a href="about-us.php" class="<?= $current_page === 'about-us.php' ? 'active' : '' ?>">About Us</a>
+      <a href="admission.php" class="<?= $current_page === 'admission.php' ? 'active' : '' ?>">Admissions</a>
+      <a href="academics.php" class="<?= $current_page === 'academics.php' ? 'active' : '' ?>">Academics</a>
+      <a href="donation.php" class="<?= $current_page === 'donation.php' ? 'active' : '' ?>">Donate</a>
+      <a href="contacts.php" class="<?= $current_page === 'contacts.php' ? 'active' : '' ?>">Contact</a>
+        <a href="https://portal.royalheritages.com/login.php" class="btn-enroll">E-Portal</a>
     </nav>
     <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -86,6 +88,7 @@ $meta_keywords = "Royal Heritage School, best school, quality education, day car
     <a href="about-us.php">About Us</a>
     <a href="admission.php">Admissions</a>
     <a href="academics.php">Academics</a>
+    <a href="donation.php">Donate</a>
     <a href="contacts.php">Contact</a>
     <a href="login.php" class="btn-enroll">E-Portal</a>
   </nav>

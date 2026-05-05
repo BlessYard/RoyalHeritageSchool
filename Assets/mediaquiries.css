@@ -76,8 +76,8 @@
       .gallery-slide { grid-template-columns: 1fr 1fr; }
       .welcome-grid, .why-grid { grid-template-columns: 1fr; gap: 24px; }
       .mv-grid { grid-template-columns: 1fr; gap: 24px; }
-      .values-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
-      .team-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
+      .values-grid { grid-template-columns: 1fr; gap: 16px; }
+      .team-grid { grid-template-columns: 1fr; gap: 16px; }
       .founder-grid { grid-template-columns: 1fr; gap: 32px; }
       
       /* Content */
@@ -93,7 +93,7 @@
       
       /* Images & Cards */
       .why-features { grid-template-columns: 1fr; }
-      .welcome-img-placeholder, .why-visual { height: 430px!important; }
+      .welcome-img-placeholder, .why-visual { height: 320px !important; }
       .team-photo { height: 180px; }
       .founder-grid { gap: 24px; }
       .founder-photo { max-width: 100%; }
@@ -107,4 +107,16 @@
     @media (max-width: 480px) {
       .stats-grid { grid-template-columns: 1fr 1fr; }
       .gallery-slide { grid-template-columns: 1fr; }
+      .values-grid,
+      .team-grid,
+      .mv-grid,
+      .founder-grid,
+      .welcome-grid,
+      .why-grid {
+        grid-template-columns: 1fr;
+      }
+      .welcome-img-placeholder,
+      .why-visual {
+        height: 260px !important;
+      }
     }
