@@ -77,7 +77,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
       <a href="academics.php" class="<?= $current_page === 'academics.php' ? 'active' : '' ?>">Academics</a>
       <a href="donation.php" class="<?= $current_page === 'donation.php' ? 'active' : '' ?>">Donate</a>
       <a href="contacts.php" class="<?= $current_page === 'contacts.php' ? 'active' : '' ?>">Contact</a>
-        <a href="login.php" class="btn-enroll">E-Portal</a>
+        <a href="https://portal.royalheritages.com/login.php" class="btn-enroll">E-Portal</a>
     </nav>
     <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span><span></span>
