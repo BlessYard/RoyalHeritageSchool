@@ -52,23 +52,24 @@
       .footer-grid {
         grid-template-columns: 1fr !important;
         gap: 24px !important;
-        text-align: center;
+        text-align: left;
       }
       .footer-brand .logo-wrap,
       .footer-socials,
       .footer-col ul {
-        justify-content: center;
+        justify-content: flex-start;
       }
       .footer-col ul {
-        align-items: center;
+        align-items: flex-start;
       }
       .footer-contact-item {
-        justify-content: center;
+        justify-content: flex-start;
       }
       .footer-bottom {
         flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        justify-content: flex-start;
+        text-align: left;
+        align-items: flex-start;
       }
     }
     @media (max-width: 480px) {

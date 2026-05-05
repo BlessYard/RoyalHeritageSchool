@@ -169,6 +169,8 @@
       color: var(--navy);
     }
     .logo-motto {
+      display: block;
+      margin-top: 2px;
       font-size: 0.68rem; color: var(--gold);
       text-transform: uppercase; letter-spacing: .08em; font-weight: 500;
     }

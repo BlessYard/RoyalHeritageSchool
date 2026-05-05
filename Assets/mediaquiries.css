@@ -53,7 +53,7 @@
       .header-inner { height: auto; padding: 12px 24px; }
       .logo-text-wrap { line-height: 1.1; }
       .logo-name { font-size: 1rem; }
-      .logo-motto { font-size: 0.6rem; }
+      .logo-motto { display: block; margin-top: 2px; font-size: 0.6rem; }
       .logo-icon { width: 40px; height: 40px; }
       .mobile-nav { padding: 8px 24px 16px; }
       .mobile-nav a { padding: 10px 0; font-size: 0.9rem; }
